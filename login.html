@@ -19,9 +19,31 @@
 <body>
   <main class="mt-5">
     <div class="container">
-      <div class="alert alert-danger text-center" role="alert">
-        <h4 class="alert-heading">Funcionalidad en desarrollo</h4>
-      </div>
+      <form action="index.html" id="loginn">
+        <div  class="text-center">
+          <img src="img\login.png" alt="imageLogin" width="300px" height="150px">
+          <div class="col">
+           <h3><b>Inicio de Seción</b></h3>   
+           
+            <div class ="col">
+             <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+           <p id="olvidoMail" style="color: red;">
+          
+           </p>
+
+           <label for="contraseña" class="form-label">Contraseña</label>
+           <input type="password" class="form-control" id="contraseña" placeholder="Contraseña">
+          </div>
+          
+          <p id="olvidoContr" style="color: red;"></p>
+
+          <button class="btn btn-primary" type="button" id="butIngres">Ingresar</button>
+
+
+        </div>
+      </form>
     </div>
   </main>
   <footer class="text-muted">
